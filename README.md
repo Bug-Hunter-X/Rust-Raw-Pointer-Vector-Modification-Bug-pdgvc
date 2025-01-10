@@ -1,0 +1,1 @@
+This repository demonstrates a common error when working with raw pointers and vectors in Rust. The `bug.rs` file contains code that attempts to modify a vector through a raw pointer after the vector might have been reallocated, leading to undefined behavior. The `bugSolution.rs` file shows how to solve this issue.
